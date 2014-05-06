@@ -22,7 +22,6 @@ LOCAL_SRC_FILES := \
 	EffectEqualizer.cpp \
 	EffectVirtualizer.cpp \
 	FIR16.cpp \
-        EffectStereoWide.cpp \
 # terminator
 
 LOCAL_C_INCLUDES += \
