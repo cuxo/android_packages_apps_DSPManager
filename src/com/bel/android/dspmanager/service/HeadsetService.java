@@ -284,7 +284,6 @@ public class HeadsetService extends Service {
         try {
             session.mBassBoost.setEnabled(prefs.getBoolean("dsp.bass.enable", false));
             session.mBassBoost.setStrength(Short.valueOf(prefs.getString("dsp.bass.mode", "0")));
-            session.mBassBoost.setCenterFrequency(Short.valueOf(prefs.getString("dsp.bass.freq", "55")));
         } catch (Exception e) {
             Log.e(TAG, "Error enabling bass boost!", e);
         }
